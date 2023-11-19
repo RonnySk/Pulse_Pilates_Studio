@@ -10,11 +10,12 @@ function FirstSection() {
       component="div"
       sx={{
         display: "flex",
+        flexDirection: "column",
         justifyContent: "center",
         alignItems: "center",
-        position: "absolute",
+        position: "relative",
         width: "100%",
-        height: "80%",
+        height: "80vh",
         backgroundImage: `url(${insideStudio})`,
         backgroundPosition: "center",
         backgroundSize: "cover",
@@ -27,19 +28,34 @@ function FirstSection() {
           right: 0,
           top: 0,
           bottom: 0,
-          backgroundColor: "rgba(232, 62, 46, 0.5)",
+          backgroundColor: "rgba(232, 62, 46, 0.6)",
         },
       }}
     >
       <Typography
-        variant="h2"
+        variant="h1"
         color="#ffffff"
+        fontSize={{ xs: 30, sm: 45 }}
         sx={{
           textAlign: "center",
-          position: "absolute",
+          zIndex: 2,
+          p: 2,
         }}
       >
-        Bem vindo a <br></br>Pulse Pilates Studio
+        Transforme Seu Corpo, Fortaleça Sua Mente:
+      </Typography>
+      <Typography
+        variant="h1"
+        color="#ffffff"
+        fontWeight="bolder"
+        fontSize={{ xs: 30, sm: 45 }}
+        sx={{
+          textAlign: "center",
+          zIndex: 2,
+          p: 3,
+        }}
+      >
+        Descubra o Poder do Pilates!
       </Typography>
     </Box>
   );
