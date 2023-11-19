@@ -4,9 +4,10 @@ import FitnessCenterIcon from "@mui/icons-material/FitnessCenter";
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 import HealingIcon from "@mui/icons-material/Healing";
 
-function Pilates() {
+function Benefícios() {
   return (
     <Box
+      id="benefícios"
       component="div"
       sx={{
         backgroundColor: "#e83e2e",
@@ -50,4 +51,4 @@ function Pilates() {
   );
 }
 
-export default Pilates;
+export default Benefícios;

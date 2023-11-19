@@ -1,11 +1,13 @@
-import FirstSection from "./components/FirstSection";
-import Navbar from "./components/Navbar";
-import PulsePilates from "./components/PulsePilates";
 import "@fontsource/roboto/300.css";
 import "@fontsource/roboto/400.css";
 import "@fontsource/roboto/500.css";
 import "@fontsource/roboto/700.css";
-import Pilates from "./components/Pilates";
+import FirstSection from "./components/FirstSection";
+import Navbar from "./components/Navbar";
+import PulsePilates from "./components/PulsePilates";
+import Benefícios from "./components/Benefícios";
+import CarouselImg from "./components/CarouselImg";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -13,7 +15,9 @@ function App() {
       <Navbar />
       <FirstSection />
       <PulsePilates />
-      <Pilates />
+      <Benefícios />
+      <CarouselImg />
+      <Footer />
     </div>
   );
 }

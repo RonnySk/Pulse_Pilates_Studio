@@ -52,7 +52,7 @@ export default function NavBar() {
                 onClick={handleClose}
               >
                 <Link
-                  href="#sobremim"
+                  href="#about"
                   underline="none"
                   color="#e83e2e"
                   p={1}
@@ -72,7 +72,7 @@ export default function NavBar() {
                 onClick={handleClose}
               >
                 <Link
-                  href="#terapiaOcupacional"
+                  href="#benefícios"
                   underline="none"
                   color="#e83e2e"
                   p={1}
@@ -84,7 +84,7 @@ export default function NavBar() {
                     },
                   }}
                 >
-                  Pilates
+                  Benefícios
                 </Link>
               </MenuItem>
               <MenuItem
@@ -112,7 +112,7 @@ export default function NavBar() {
                 onClick={handleClose}
               >
                 <Link
-                  href="#espaco"
+                  href="#contact"
                   underline="none"
                   color="#e83e2e"
                   p={1}
@@ -132,7 +132,7 @@ export default function NavBar() {
           <Box sx={{ display: { xs: "none", md: "block", lg: "block" } }}>
             <Stack direction="row" spacing={2}>
               <Link
-                href="#sobremim"
+                href="#about"
                 underline="none"
                 color="#e83e2e"
                 p={1}
@@ -151,7 +151,7 @@ export default function NavBar() {
               </Link>
 
               <Link
-                href="#terapiaOcupacional"
+                href="#benefícios"
                 underline="none"
                 color="#e83e2e"
                 p={1}
@@ -166,7 +166,7 @@ export default function NavBar() {
                   },
                 }}
               >
-                Pilates
+                Benefícios
               </Link>
 
               <Link
@@ -189,7 +189,7 @@ export default function NavBar() {
               </Link>
 
               <Link
-                href="#espaco"
+                href="#contact"
                 underline="none"
                 color="#e83e2e"
                 p={1}

@@ -6,6 +6,7 @@ import clientPilates from "../images/client_cadillac.jpg";
 function PulsePilates() {
   return (
     <Box
+      id="about"
       component="div"
       sx={{
         backgroundColor: "#fbf4e4",
