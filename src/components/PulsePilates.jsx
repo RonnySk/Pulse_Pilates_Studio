@@ -1,4 +1,4 @@
-import { Box, Divider, List, ListItem, Stack, Typography } from "@mui/material";
+import { Box, Typography } from "@mui/material";
 import Image from "mui-image";
 import React from "react";
 import clientPilates from "../images/client_cadillac.jpg";
@@ -23,7 +23,7 @@ function PulsePilates() {
           alignItems: "center",
           justifyContent: "center",
           mt: 3,
-          width: { xs: "100%", m: "50%" },
+          width: "100%",
         }}
       >
         <Typography
@@ -54,8 +54,8 @@ function PulsePilates() {
       <Image
         src={clientPilates}
         alt="client doing Pilates"
-        width="80%"
-        sx={{ borderRadius: { xs: 2 }, mb: { xs: 2 } }}
+        // width="60%"
+        sx={{ borderRadius: { xs: 2 }, width: { xs: "10%", sm: "40%" } }}
       />
     </Box>
   );
