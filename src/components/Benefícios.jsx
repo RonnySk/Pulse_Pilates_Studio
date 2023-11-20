@@ -13,40 +13,75 @@ function Benefícios() {
         backgroundColor: "#e83e2e",
         position: "relative",
         display: "flex",
-        flexDirection: { xs: "column", sm: "row" },
+        flexDirection: "column",
         alignItems: "center",
         justifyContent: "space-around",
-        height: { xs: "80vh", sm: "50vh" },
+        height: { xs: "100vh", sm: "50vh" },
       }}
     >
-      <Stack m={2} spacing={2} alignItems="center" justifyItems="center">
-        <FitnessCenterIcon sx={{ color: "#ffffff", fontSize: 70 }} />
-        <Typography
-          lineHeight={1.2}
-          align="center"
-          color="#ffffff"
-          fontSize={{ sm: 25 }}
+      <Typography
+        variant="h4"
+        fontWeight="bolder"
+        fontSize={{ sm: 40 }}
+        m={2}
+        color="#ffffff"
+        align="center"
+      >
+        Benefícios do Pilates
+      </Typography>
+
+      <Box
+        sx={{
+          display: "flex",
+          flexDirection: { xs: "column", sm: "row" },
+          justifyContent: "space-around",
+          width: "100%",
+        }}
+      >
+        <Stack
+          mb={{ xs: 4, sm: 2 }}
+          spacing={2}
+          alignItems="center"
+          justifyItems="center"
         >
-          Melhora do<br></br>Condicionamento físico
-        </Typography>
-      </Stack>
-      <Stack m={2} spacing={2} alignItems="center" justifyItems="center">
-        <HealingIcon sx={{ color: "#ffffff", fontSize: 70 }} />
-        <Typography align="center" color="#ffffff" fontSize={{ sm: 25 }}>
-          Alívio da Dor
-        </Typography>
-      </Stack>
-      <Stack m={2} spacing={2} alignItems="center" justifyItems="center">
-        <FavoriteBorderIcon sx={{ color: "#ffffff", fontSize: 70 }} />
-        <Typography
-          lineHeight={1.2}
-          align="center"
-          color="#ffffff"
-          fontSize={{ sm: 25 }}
+          <FitnessCenterIcon sx={{ color: "#ffffff", fontSize: 70 }} />
+          <Typography
+            lineHeight={1.2}
+            align="center"
+            color="#ffffff"
+            fontSize={{ sm: 25 }}
+          >
+            Melhora do<br></br>Condicionamento físico
+          </Typography>
+        </Stack>
+        <Stack
+          mb={{ xs: 4, sm: 2 }}
+          spacing={2}
+          alignItems="center"
+          justifyItems="center"
         >
-          Redução do stress
-        </Typography>
-      </Stack>
+          <HealingIcon sx={{ color: "#ffffff", fontSize: 70 }} />
+          <Typography align="center" color="#ffffff" fontSize={{ sm: 25 }}>
+            Alívio da Dor
+          </Typography>
+        </Stack>
+        <Stack
+          mb={{ xs: 4, sm: 2 }}
+          spacing={2}
+          alignItems="center"
+          justifyItems="center"
+        >
+          <FavoriteBorderIcon sx={{ color: "#ffffff", fontSize: 70 }} />
+          <Typography
+            lineHeight={1.2}
+            align="center"
+            color="#ffffff"
+            fontSize={{ sm: 25 }}
+          >
+            Redução do stress
+          </Typography>
+        </Stack>
+      </Box>
     </Box>
   );
 }
