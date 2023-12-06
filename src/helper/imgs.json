@@ -6,12 +6,12 @@
 },
 {
     "id":2,
-    "image":"src/images/client_barrel.jpg",
+    "image":"../images/client_barrel.jpg",
     "title":"Client on Barrel"
 },
 {
     "id":3,
-    "image":"src/images/client_reformer.jpg",
+    "image":"../images/client_reformer.jpg",
     "title":"Client on Reformer"
 }
 
